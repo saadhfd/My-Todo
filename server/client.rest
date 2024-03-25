@@ -1,0 +1,18 @@
+### Get Tasks
+
+GET http://localhost:83001
+
+### Add new task
+
+POST http://localhost:3001/new HTTP/1.1
+Content-Type: application/json
+
+
+{
+    "description" : "Test from REST CLient"
+}
+
+
+### Delete task
+
+DELETE http://localhost:3001/delete/1 HTTP/1.1
